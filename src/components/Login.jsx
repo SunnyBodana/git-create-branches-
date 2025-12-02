@@ -1,13 +1,20 @@
-import React from 'react'
+import React from "react";
+import "./style.css"
 
 const Login = () => {
   return (
-    <div>
-        <h2>
-            Login Page 
-        </h2>
-    </div>
-  )
-}
+    <div className="page-container">
+      <div className="card">
+        <h2 className="title">Login</h2>
 
-export default Login
+        <form className="form">
+          <input type="text" placeholder="Email" className="input" />
+          <input type="password" placeholder="Password" className="input" />
+          <button className="btn">Login</button>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default Login;
