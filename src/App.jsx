@@ -1,6 +1,7 @@
 import Login from "./components/Login";
 import Product from "./components/Product";
-import "./components/style.css"
+import "./components/styles.css";
+
 export default function App() {
   return (
     <div>
